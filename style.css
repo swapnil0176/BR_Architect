@@ -1,0 +1,152 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family:Verdana,sans-serif;
+    line-height: 1.5;
+}
+
+#navbar {
+    position: fixed;
+    background-color: #ffff;
+    font-size: 17px;
+    height: 50px;
+    width: 100%;
+    z-index: 1;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    letter-spacing: 4px;
+}
+
+#navbar1 {
+    float: left;
+    padding: 10px 16px;
+}
+
+.astyle {
+    color: black;
+    padding: 8px 16px;
+    text-decoration-line: none;
+}
+
+.astyle:hover {
+    background-color: rgb(212, 205, 205);
+}
+
+#navbar2 {
+    float: right;
+    padding: 10px 16px;
+}
+
+.bg-img {
+    width: 99%;
+    /* vertical-align: middle; */
+    max-width: 100%;
+    height: auto;
+    position: absolute;
+}
+
+.br {
+    /* padding: 8px 16px; */
+    color: white;
+    opacity: 0.75;
+    font-size: medium;
+    display: flex;
+    justify-content: center;
+}
+
+.br h1 {
+    /* position: absolute; */
+    margin-top: 300px;
+    font-size: 30px;
+    padding: 8px 16px !important;
+}
+
+.br-style {
+    text-align: center;
+    background-color: black;
+}
+
+#project {
+    margin-top: 450px;
+}
+
+.img-row {
+    display: flex;
+}
+
+.img-container {
+    position: relative;
+    flex: 25%;
+    padding: 8px 16px;
+}
+
+.img-name {
+    /* margin-top:9px; */
+    /* margin-left: 9px; */
+    position: absolute;
+    /* left: 0;
+    top: 0; */
+    padding: 8px 16px;
+    background-color: black;
+    color: white;
+}
+
+.padding {
+    padding: 8px 16px;
+}
+
+.person-name {
+    margin-top: 10px;
+}
+
+.person-position {
+    margin-top: 10px;
+    opacity: 0.60;
+}
+
+button {
+    margin-top: 10px;
+    width: 100%;
+    border: 0px;
+}
+
+button:hover {
+    background-color: rgb(212, 205, 205);
+}
+
+input {
+    display: block;
+    padding: 8px;
+    width: 99%;
+    margin-top: 15px;
+}
+
+.send-button {
+    font-size: larger;
+    margin-top: 10px;
+    height: 50px;
+    width: 200px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.send-button:hover {
+    color: black;
+}
+
+img {
+    justify-content: center;
+    padding-left: 8px;
+    width: 99%;
+}
+
+footer {
+    height: 100px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+footer p {
+    margin-top: 50px;
+}
